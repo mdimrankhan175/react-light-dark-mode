@@ -1,6 +1,6 @@
 /* Write your CSS here */
 
-.bg-container {
+.light-bg-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,15 +10,26 @@
   background-size: cover;
 }
 
+.dark-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/dbelvmspz/image/upload/v1677982853/bg8_ngo75o.jpg');
+  background-size: cover;
+}
+
 .light-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  width: 600px;
-  border: solid black 2px;
+  height: 200px;
+  width: 350px;
+  border: solid cyan 3px;
   border-radius: 10px;
+  color: white;
 }
 
 .dark-container {
@@ -26,17 +37,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  width: 600px;
-  border: solid black 2px;
+  height: 200px;
+  width: 350px;
+  border: solid cyan 3px;
   background-color: black;
   color: orange;
   border-radius: 10px;
 }
 
-.button {
+.light-button {
   text-align: center;
-  background-color: #ffffff;
+  background-color: pink;
   font-family: 'Bree Serif';
   font-size: 16px;
   border-radius: 12px;
@@ -45,4 +56,22 @@
   padding-bottom: 12px;
   padding-left: 24px;
   padding-right: 24px;
+}
+
+.dark-button {
+  text-align: center;
+  background-color: cyan;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.heading {
+  font-size: 30px;
+  font-family: 'roboto';
 }
